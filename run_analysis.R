@@ -51,6 +51,6 @@ simple=cbind(names(parts), simple);
 names(simple)[1] = "acitivity";
 
 # save the two data sets to disk
-write.csv(total, "total.csv", row.names=F);
-write.csv(simple, "simple.csv", row.names=F);
+write.csv(total, "total.txt", row.names=F);
+write.csv(simple, "simple.txt", row.names=F);
 
